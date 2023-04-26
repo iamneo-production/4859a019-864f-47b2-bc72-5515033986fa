@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+//import LinearGradient from 'react-native-linear-gradient';
 
 const Signup = () => {
   const [email, setEmail] = useState('');
@@ -58,12 +59,13 @@ const Signup = () => {
 
   return (
     <div className="signupBox">
-      <h1>Register</h1>
+      <h1 style={{backgroundColor: "#6032A2",color:"white"}} >Register</h1>
+      <h1 style= {{color :"#6032A2"}} >Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          
-          <input type="email" id="email" value={email} placeholder="Enter email" onChange={handleEmailChange} required />
+          <input type="email" id="email" value={email} placeholder="Enter email" colors={["#DF98FA","#9055FF"]} onChange={handleEmailChange} required></input>
         </div>
+     
         <div>
           
           <input type="text" id="username" value={username} placeholder="Enter Username" onChange={handleUsernameChange} required />
@@ -83,12 +85,12 @@ const Signup = () => {
         {isLoading ? (
           <p>Loading...</p>
         ) : (
-          <button type="submit">Submit</button>
+          <button type="submit" id='submitButton'>Submit</button>
         )}
         {errorMessage && <p className="error">{errorMessage}</p>}
       </form>
       <p>
-        Already a User? <a href="/signin">Login</a>.
+        Already a User? <a href="/signin" id="signinLink" onClick="login.jsx">Login</a>.
       </p>
     </div>
   );
