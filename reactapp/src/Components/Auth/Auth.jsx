@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 
 const Auth = () => {
   const [username, setUsername] = useState('');
@@ -49,3 +49,62 @@ const Auth = () => {
 };
 
 export default Auth;
+
+*/
+import React, { useState } from "react";
+
+function LoginForm() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handlePasswordChange = (event) => {
+    setPassword(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // perform authentication here
+    if (email === "user@example.com" && password === "password123") {
+      console.log("Login successful");
+    } else {
+      setError("Invalid email or password");
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={email}
+          onChange={handleEmailChange}
+          required
+        />
+      </div>
+      <div>
+        <label htmlFor="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          value={password}
+          onChange={handlePasswordChange}
+          required
+        />
+      </div>
+      {error && <p>{error}</p>}
+      <button type="submit">Login</button>
+    </form>
+  );
+}
+
+export default LoginForm;
