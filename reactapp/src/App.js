@@ -6,15 +6,15 @@ import {
   Routes,
   } from "react-router-dom";
 
-import Login from "./Components/Login";
-import Signup from "./Components/Signup";
+import Login from "./Components/Login/Login";
+import Signup from "./Components/Signup/Signup";
 import Home from "./Components/HomePage";
 import Cart from "./Components/Cart";
 import Order from "./Components/Order";
 import Dashboard from "./Components/Dashboard";
 import ViewOrders from "./Components/ViewOrders";
 import AddProduct from "./Components/AddProduct";
-import {Auth,Admin} from "./Components/Auth";
+import {Auth,Admin} from "./Components/Auth/Auth";
 function App() {
   return (
     <>
