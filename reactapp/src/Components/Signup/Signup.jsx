@@ -1,3 +1,4 @@
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -6,6 +7,7 @@ import axios from 'axios';
 
 const Signup = () => {
   const navigate = useNavigate();
+
   const [email, setEmail] = useState('');
   const [username, setUsername] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
@@ -13,6 +15,7 @@ const Signup = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [confirmPasswordError, setConfirmPasswordError] = useState('');
@@ -21,7 +24,6 @@ const Signup = () => {
   const handleEmailChange = (event) => {
     setEmail(event.target.value);
   }
-  
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
   };
@@ -33,8 +35,9 @@ const Signup = () => {
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
 
+
   };
-  
+
 
   const handleConfirmPasswordChange = (event) => {
     setConfirmPassword(event.target.value);
@@ -42,6 +45,7 @@ const Signup = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
     var flag=1;
     const emailRegex = new Regex("^[^\s@]+@[^\s@]+\.[^\s@]{2,}$");
     if (!emailRegex.test(email)) {
@@ -84,21 +88,25 @@ const Signup = () => {
       username,
       mobileNumber,
       
+
     })
       .then((response) => {
         console.log(response.data);
         setIsLoading(false);
+
         if(response.data){
           navigate("/");
         }else{
           setErrorMessage("Account already exists on this email....")
         }
+
       })
       .catch((error) => {
         console.error(error);
         setIsLoading(false);
         setErrorMessage('An error occurred during signup. Please try again.');
       });
+
     }
     setIsLoading(false);
     
@@ -153,4 +161,5 @@ const Signup = () => {
   </main>
   );
 };
+
 export default Signup;

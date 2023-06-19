@@ -1,3 +1,4 @@
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -51,11 +52,13 @@ const Login = () => {
       <form onSubmit={handleSubmit} className='login-form'>
         <label>Your e-mail</label>
         <div className="input-box">
+
           <input
             type="email"
             id="email"
             value={email}
             placeholder="Enter email"
+
             
             onChange={(event) => setEmail(event.target.value)}
             required
@@ -65,10 +68,12 @@ const Login = () => {
         <br/>
         <label>Password</label>
         <div className="input-box">
+
           <input
             type="password"
             id="password"
             value={password}
+
             placeholder="At least 8 characters long"
             onChange={(event) => setPassword(event.target.value)}
             required
@@ -89,3 +94,4 @@ const Login = () => {
   );
 }
 export default Login;
+
