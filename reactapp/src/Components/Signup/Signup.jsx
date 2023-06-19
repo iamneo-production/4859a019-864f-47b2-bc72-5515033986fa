@@ -43,7 +43,7 @@ const Signup = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     var flag=1;
-    const emailRegex = new Regex("^[^\s@]+@[^\s@]+\.[^\s@]{2,}$");
+    const emailRegex = new RegExp("^\\w+([\\.-]?\\w+)*@\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$");
     if (!emailRegex.test(email)) {
       flag=0;
       setEmailError('Invalid Email');
@@ -51,7 +51,7 @@ const Signup = () => {
       flag=flag&1;
       setEmailError("");
     }
-    const mobileNumberRegex = new Regex("^[0-9]{10}$");
+    const mobileNumberRegex = new RegExp("^[0-9]{10}$");
     if (!mobileNumberRegex.test(mobileNumber)) {
       flag=0;
       setMobileNumberError('Mobile number must be a 10-digit number.');
