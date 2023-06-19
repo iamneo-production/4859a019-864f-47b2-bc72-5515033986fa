@@ -17,11 +17,15 @@ const Login = () => {
     if(!emailRegex.test(email)) {
       flag= flag&0;
       setEmailError('Invalid Email');
-    } 
+    }else{
+      setEmailError('');
+    }
     var pwd = new RegExp("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\\s).{8,15}$")
     if (!pwd.test(password)) {
       flag =flag&0;
       setPasswordError('Password must contains 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character');
+    }else{
+      setPasswordError('');
     }
     if(flag===1){
       axios.post('https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/Login/login', { email, password })
