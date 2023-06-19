@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     var flag=1;
-    const emailRegex = new RegExp("^[^\s@]+@[^\s@]+\.[^\s@]{2,}$");
+    const emailRegex = new RegExp("^[^\\s@]+@[^\\s@]+\.[^\\s@]{2,}$");
     if(!emailRegex.test(email)) {
       flag= flag&0;
       setEmailError('Invalid Email');
