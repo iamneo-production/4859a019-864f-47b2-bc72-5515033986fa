@@ -59,9 +59,10 @@ const Signup = () => {
       flag=flag&1;
       setMobileNumberError("");
     }
-    if (password.length < 8) {
+    var pwd = new RegExp("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\\s).{8,15}$");
+    if (pwd.test(password)) {
       flag=0;
-      setPasswordError('Password must be at least 8 characters long.');
+      setPasswordError('Password must contains 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character');
     }else{
       flag=flag&1;
       setPasswordError("");
