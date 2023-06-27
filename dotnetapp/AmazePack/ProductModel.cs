@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AmazePack
 {
     
-    public partial class ProductModel
+    public class ProductModel
     {
         public int id { get; set; }
         public string productId { get; set; }

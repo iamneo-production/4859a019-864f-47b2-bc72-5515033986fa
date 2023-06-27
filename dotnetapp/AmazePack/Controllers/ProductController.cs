@@ -43,7 +43,7 @@ namespace AmazePack.Controllers
         [HttpPost]
         [Route("admin/addProduct")]
         //POST: api/Product
-        public string ProductSave([FromBody] ProductModel p)
+        public string ProductSave([FromBody]ProductModel p)
         {
             return (amazePackBL.ProductSave(p));
         }
