@@ -75,7 +75,7 @@ namespace AmazePack
         internal List<string> ProductEditData(int id)
         {
             List<string> li = new List<string>();
-            cmd = new SqlCommand("select * from ProductModel where id = " + id, con);
+            cmd = new SqlCommand("select * from ProductModel where id ='"+id+"'" ,con);
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())

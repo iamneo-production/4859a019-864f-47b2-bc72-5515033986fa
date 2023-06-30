@@ -5,7 +5,7 @@ import {
   Route,
   Routes,
   } from "react-router-dom";
-
+//import authentication from "./Components/Auth/Auth";
 // import Login from "./Components/Login/Login";
 // import Signup from "./Components/Signup/Signup";
 // import Home from "./Components/HomePage";
@@ -26,10 +26,10 @@ function App() {
             <Route path="/home" element = { <Home/>  }></Route>
             <Route path="/cart" element = {<Cart/> }></Route>
             <Route path="/order" element = { <Order/> }></Route>
-          </Route>
-          <Route element={<Admin/>}> */}
+          </Route> */}
+          {/* <Route element={<Admin/>}> */}
             <Route path="/admin" element = {<Dashboard/>}></Route>
-            <Route path="/admin/orders" element = {<ViewOrders/>}></Route>
+            {/* <Route path="/admin/orders" element = {<ViewOrders/>}></Route> */}
             <Route path="/addProduct" element = {<AddProduct/>}></Route>
           {/* </Route>  */}
         </Routes>
