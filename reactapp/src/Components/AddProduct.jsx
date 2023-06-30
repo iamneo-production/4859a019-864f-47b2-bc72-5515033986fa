@@ -9,7 +9,7 @@ export default function AddProduct() {
         e.preventDefault();
         console.log(e);
         if(state!=null){
-          axios.put("http://https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//admin/productEdit/"+state.id,{
+          axios.put("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/productEdit/"+state.id,{
             productName:e.target['0']['value'],
             price:e.target['1']['value'],
             description : e.target['2']['value'],
@@ -17,7 +17,7 @@ export default function AddProduct() {
             quantity:e.target['4']['value'],
         }).then(res => {alert(res.data);navigate("/admin")});
         }else{
-        axios.post("http://lhttps://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//admin/addProduct",{
+        axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/addProduct",{
             productName:e.target['0']['value'],
             price:e.target['1']['value'],
             description : e.target['2']['value'],

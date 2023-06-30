@@ -13,13 +13,13 @@ export default function Dashboard() {
     const navigate = useNavigate();
     const [count,setcount] = useState(1);
     useEffect(()=>{
-        axios.get("http://https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//admin")
+        axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin")
         .then(res => {setProductData(res.data)})
         .catch(err => {console.log(err)});
     },[count])
     function editproduct(event,index){
         
-        axios.get("http://https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//admin/productEdit/"+productData[index].id).then(res=>{
+        axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/productEdit/"+productData[index].id).then(res=>{
             //console.log(res.data[0])
             navigate("/addproduct",{
                 state : {
@@ -36,7 +36,7 @@ export default function Dashboard() {
     }
     function deleteproduct(event,index){
         var id = productData[index].id;
-        axios.delete("http://https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//admin/delete/"+id)
+        axios.delete("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/delete/"+id)
         .then(res=>{
             alert(res.data);
             setcount(count+1);
