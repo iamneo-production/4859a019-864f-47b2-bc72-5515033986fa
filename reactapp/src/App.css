@@ -1,38 +1,111 @@
-.App {
+/* login PAGE styling */
+.login-section{
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  height:100vh;
+  padding:0px 16px;
+}
+.login-image{
+  width:100%;
+  height: 100%;
+}
+#loginBox{
+  padding: 16px 48px;
+}
+.title{
+  font-family: "Rubik",sans-serif;
+  font-weight: 700px;
+  color:rgba(13, 132, 231, 0.441);
+  margin-bottom: 32px;
+}
+.heading{
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Rubik",sans-serif;
+  margin-left:32px;
+  margin-bottom: 48px;
+}
+.login-form{
+  margin-left:32px;
+}
+.login-form label{
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+#email,#password{
+  border:none;
+  outline: none;
+  width:70%;
+  padding: 0 0 16px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid #343a40;
+  background-color: #f8f9fa;
+}
+#password{
+  margin-bottom: 24px;
+}
+#loginButton,#signupLink{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 48px;
+  font-size: 18px;
+  border:none;
+  color:#fff;
+  background-color: rgba(13, 132, 231, 0.441);
+  border-radius: 9px;
+}
+.ortext{
+  font-size: 18px;
+  margin:0px 12px;
+}
+a#signupLink {
+  background-color: #f8f9fa;
+  color:rgba(13, 133, 231, 0.966);
+  border:1px solid rgb(0,0,0,1);
+}
+/* SIGNUP PAGE STYLING */
+.body{
+  width: 100vw;
+  height: 100vh;
+  
+}
+#signupBox{
+  width:960px;
+  margin: auto;
+  margin-top:48px;
   text-align: center;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#signupBox h1{
+  margin-bottom: 32px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Rubik",sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#signupBox input{
+  width: 50%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #343a40;
+  background-color: inherit;
+  padding: 0 0 16px 0px;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#submitButton{
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 48px;
+  font-size: 18px;
+  border:none;
+  color:#fff;
+  background-color: rgba(13, 132, 231, 0.441);
+  border-radius: 9px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a#signinLink{
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 8px;
+  padding: 8px 8px;
+  color:rgba(13, 132, 231, 0.441)
 }
