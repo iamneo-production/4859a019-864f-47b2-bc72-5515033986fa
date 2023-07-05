@@ -8,12 +8,17 @@ import {
   } from "react-router-dom";
 import Dashboard from "./Components/Dashboard";
 import AddProduct from "./Components/AddProduct";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          
+        <Route element={<Auth/>}>
+          <Route exact path="/" element = {<Login/>}></Route>
+          <Route path="/signup" element = {<Signup/>}></Route>
+        </Route>
           <Route element={<Admin/>}>
             <Route path="/admin" element = {<Dashboard/>}></Route>
             

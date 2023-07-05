@@ -2,6 +2,7 @@
   "version": 2,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Ic9urWvcEgDFeATKrBwCo4Z7+9gTlWPOY7UcLftYV2pj8hNmmCXIAcAxvKZDnRciM8D0hHyGbqIQlZqjiz/+YQ==",
 =======
   "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
@@ -64,6 +65,18 @@
     "/home/coder/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+=======
+  "dgSpecHash": "9LDEojFoun3wSf+sDcX0vNJfw/UJW7WT5tiPsyJCOHA0fWnJ06FLFMx5UqtQ8+Zcl237tcv366Pz8ZDA/HRi7Q==",
+  "success": true,
+  "projectFilePath": "/home/coder/project/workspace/dotnetapp/AmazePack/AmazePack.csproj",
+  "expectedPackageFiles": [
+    "/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
   ],
   "logs": []
 }
