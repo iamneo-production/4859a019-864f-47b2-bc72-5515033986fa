@@ -16,10 +16,10 @@ namespace AmazePack
         {
             return(amazePackDL.GetProduct());
         }
-        // public List<CartModel> GetHomeProduct(string userId)
-        // {
-        //     return(amazePackDL.GetHomeProduct(userId));
-        // }
+        public List<CartModel> GetHomeProduct(string userId)
+        {
+            return(amazePackDL.GetHomeProduct(userId));
+        }
         public List<string> ProductEditData(int id)
         {
             return (amazePackDL.ProductEditData(id));
@@ -38,14 +38,5 @@ namespace AmazePack
         {
             return (amazePackDL.ProductDelete(id));
         }
-
-        // public Boolean SaveUser(UserModel user)
-        // {
-        //     return (amazePackDL.SaveUser(user));
-        // }
-        // public List<string> checkUser(LoginModel user)
-        // {
-        //     return (amazePackDL.checkUser(user));
-        // }
     }
 }

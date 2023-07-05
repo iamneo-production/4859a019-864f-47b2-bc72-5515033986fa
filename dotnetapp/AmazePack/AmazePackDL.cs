@@ -39,43 +39,43 @@ namespace AmazePack
             return l;
         }
         //summary :  to retrive all the products for users page 
-        // internal List<CartModel> GetHomeProduct(string id)
-        // {
-        //     List<CartModel> l = new List<CartModel>();
-        //     cmd = new SqlCommand("select * from ProductModel as p left join (select * from CartModel where userId = '"+ id +"') as c on p.productName = c.productName ", con);
-        //     adapter = new SqlDataAdapter(cmd);
-        //     DataTable dt = new DataTable();
-        //     con.Open();
-        //     adapter.Fill(dt);
-        //     con.Close();
-        //     foreach (DataRow dr in dt.Rows)
-        //     {
-        //         CartModel product = new CartModel();
-        //         product.id = int.Parse(dr["id"].ToString());
-        //         product.productId = dr["productId"].ToString();
-        //         product.productName = dr["productName"].ToString();
-        //         product.price = dr["price"].ToString();
-        //         product.imageurl = dr["imageurl"].ToString();
-        //         product.description = dr["description"].ToString();
-        //         product.quantity = int.Parse(dr["quantity"].ToString());
-        //         if (dr.IsNull("cartItemID"))
-        //         {
-        //             product.cartItemID = "0";
-        //         }
-        //         else
-        //         {
-        //             product.cartItemID = dr["cartItemID"].ToString();
-        //         }
+        internal List<CartModel> GetHomeProduct(string id)
+        {
+            List<CartModel> l = new List<CartModel>();
+            cmd = new SqlCommand("select * from ProductModel as p left join (select * from CartModel where userId = '"+ id +"') as c on p.productName = c.productName ", con);
+            adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            con.Open();
+            adapter.Fill(dt);
+            con.Close();
+            foreach (DataRow dr in dt.Rows)
+            {
+                CartModel product = new CartModel();
+                product.id = int.Parse(dr["id"].ToString());
+                product.productId = dr["productId"].ToString();
+                product.productName = dr["productName"].ToString();
+                product.price = dr["price"].ToString();
+                product.imageurl = dr["imageurl"].ToString();
+                product.description = dr["description"].ToString();
+                product.quantity = int.Parse(dr["quantity"].ToString());
+                if (dr.IsNull("cartItemID"))
+                {
+                    product.cartItemID = "0";
+                }
+                else
+                {
+                    product.cartItemID = dr["cartItemID"].ToString();
+                }
                 
-        //         l.Add(product);
-        //     }
-        //     return l;
-        // }
+                l.Add(product);
+            }
+            return l;
+        }
         // summary : to obtain the particular details of product based on id
         internal List<string> ProductEditData(int id)
         {
             List<string> li = new List<string>();
-            cmd = new SqlCommand("select * from ProductModel where id ='"+id+"'" ,con);
+            cmd = new SqlCommand("select * from ProductModel where id = " + id, con);
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -139,62 +139,5 @@ namespace AmazePack
                 return "Record deletion not successfull";
             }
         }
-        // internal Boolean SaveUser(UserModel user)
-        // {
-        //     cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "'", con);
-        //     con.Open();
-        //     dr = cmd.ExecuteReader();
-
-        //     if (dr.HasRows)
-        //     {
-        //         con.Close();
-        //         return false;
-        //     }
-        //     else
-        //     {
-        //         con.Close();
-        //         cmd = new SqlCommand("insert into UserModel Values('" + user.email + "','" + user.password + "','" + user.username + "'," +
-        //             "'" + user.mobileNumber + "',1,'USER') ", con);
-        //         con.Open();
-        //         int rowsaffected = cmd.ExecuteNonQuery();
-        //         con.Close();
-        //         if (rowsaffected > 0)
-        //         {
-        //             return true;
-        //         }
-        //         else
-        //         {
-        //             return false;
-        //         }
-        //     }
-         
-
-        // }
-        // //summary: to chekc the particular user exist in databse or not
-        // internal List<string> checkUser(LoginModel user)
-        // {
-        //     List<string> li = new List<string>();
-        //     cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "' and password COLLATE Latin1_General_CS_AS = '" + user.password + "'", con);
-        //     con.Open();
-        //     dr = cmd.ExecuteReader();
-
-        //     if (dr.HasRows)
-        //     {
-        //         dr.Read();
-        //         li.Add("true");
-        //         li.Add(dr["role"].ToString());
-        //         li.Add(dr["userId"].ToString());
-        //         con.Close();
-        //         return li;
-
-        //     }
-        //     else
-        //     {
-        //         con.Close();
-        //         li.Add("false");
-        //         return li;
-        //     }
-
-        // }
     }
 }
