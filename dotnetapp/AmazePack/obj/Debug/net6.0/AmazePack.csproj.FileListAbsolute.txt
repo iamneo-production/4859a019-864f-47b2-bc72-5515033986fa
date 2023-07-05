@@ -1,0 +1,7 @@
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.csproj.AssemblyReference.cache
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.GeneratedMSBuildEditorConfig.editorconfig
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.AssemblyInfoInputs.cache
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.AssemblyInfo.cs
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.csproj.CoreCompileInputs.cache
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.MvcApplicationPartsAssemblyInfo.cs
+/home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.MvcApplicationPartsAssemblyInfo.cache
