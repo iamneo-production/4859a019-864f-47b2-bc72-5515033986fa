@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PackageReference Include="System.Collections" Version="4.3.0" />
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
@@ -19,6 +20,9 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
+=======
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
