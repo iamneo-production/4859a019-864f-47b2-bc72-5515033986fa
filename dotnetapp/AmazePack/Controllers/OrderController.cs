@@ -32,6 +32,13 @@ namespace AmazePackAPI.Controllers
         public void Post([FromBody]UserModel user)
         {
             amazePackBL.SaveProduct(user);
+
+        }
+        [HttpGet]
+        [Route("orders/checkQuantity/{userId}")]
+        public string checkQuantityBeforePaying(string userId)
+        {
+            return (amazePackBL.checkQuantityBeforePaying(userId));
         }
     }
 }
