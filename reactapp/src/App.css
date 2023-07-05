@@ -1,0 +1,27 @@
+#productOrderBody{
+  padding: 32px;
+  margin: auto;
+  border-radius: 16px;
+}
+#productOrderBody div:last-child{
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+
+
+#payButton{
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 16px;
+  border: none;
+  background-color: rgba(13, 132, 231, 0.441);
+  border-radius: 9px;
+  margin-top: 32px;
+  margin-left: 50%;
+  transform: translate(-50%,0);
+  width:200px;
+  transition: all 0.3s;
+}
+#payButton:hover{
+  opacity: 0.8;
+}
