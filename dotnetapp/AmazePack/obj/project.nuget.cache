@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Ic9urWvcEgDFeATKrBwCo4Z7+9gTlWPOY7UcLftYV2pj8hNmmCXIAcAxvKZDnRciM8D0hHyGbqIQlZqjiz/+YQ==",
 =======
   "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
@@ -18,6 +19,9 @@
 =======
   "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/AmazePack/AmazePack.csproj",
   "expectedPackageFiles": [
@@ -38,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/home/coder/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
@@ -47,6 +52,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
     "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
@@ -58,6 +65,7 @@
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,6 +95,11 @@
     "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
     "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
     "/home/coder/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",

@@ -24,22 +24,41 @@ namespace AmazePack
         public string ProductSave(ProductModel p)
         {
             return (amazePackDL.ProductSave(p));
+
         }
         public string ProductEditSave(int id, ProductModel p)
         {
             return (amazePackDL.ProductEditSave(id, p));
         }
+        
         public string ProductDelete(int id)
         {
             return (amazePackDL.ProductDelete(id));
         }
-         public Boolean SaveUser(UserModel user)
+        
+        public Boolean SaveUser(UserModel user)
         {
             return (amazePackDL.SaveUser(user));
         }
-         public List<string> checkUser(LoginModel user)
+        public List<string> checkUser(LoginModel user)
         {
             return (amazePackDL.checkUser(user));
+        }
+        
+        public List<CartModel> showCart(string userId) { 
+            return (amazePackDL.showCart(userId));
+        }
+        public Boolean addToCart(CartModel cart)
+        {
+            return (amazePackDL.addToCart(cart));
+        }
+        public dynamic editQuantity(string cartItemId, CartModel cart)
+        {
+            return (amazePackDL.editQuantity(cartItemId,cart));
+        }
+        public Boolean Delete(string cartItemId)
+        {
+            return (amazePackDL.Delete(cartItemId));
         }
     }
 }

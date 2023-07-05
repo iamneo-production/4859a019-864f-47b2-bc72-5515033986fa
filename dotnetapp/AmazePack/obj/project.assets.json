@@ -230,6 +230,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NETCore.Targets/1.1.0": {
         "type": "package",
         "compile": {
@@ -249,6 +250,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -422,6 +425,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -443,6 +447,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
       "System.ComponentModel.Annotations/4.5.0": {
         "type": "package",
         "compile": {
@@ -493,6 +499,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -513,6 +520,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {
         "type": "package",
         "compile": {
@@ -809,6 +818,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.NETCore.Targets/1.1.0": {
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
@@ -834,6 +844,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -1097,6 +1109,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -1173,6 +1186,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
     "System.ComponentModel.Annotations/4.5.0": {
       "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
@@ -1377,6 +1392,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "System.Runtime/4.3.0": {
       "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
@@ -1477,6 +1493,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "type": "package",
@@ -1639,11 +1657,14 @@
       "Swashbuckle.AspNetCore >= 6.2.3",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Collections >= 4.3.0",
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
       "System.Data.SqlClient >= 4.8.5"
 =======
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -1716,6 +1737,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "System.Collections": {
             "target": "Package",
             "version": "[4.3.0, )"
@@ -1738,6 +1760,8 @@
             "version": "[4.8.5, )"
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.5, )"
