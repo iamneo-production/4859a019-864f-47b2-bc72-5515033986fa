@@ -11,6 +11,7 @@ import AddProduct from "./Components/AddProduct";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import {Auth,Admin} from "./Components/Auth";
+  import Home from "./Components/HomePage";
 function App() {
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route exact path="/" element = {<Login/>}></Route>
           <Route path="/signup" element = {<Signup/>}></Route>
-        
+          <Route path="/home" element = { <Home/>  }></Route>
           <Route element={<Admin/>}>
             <Route path="/admin" element = {<Dashboard/>}></Route>
             
@@ -31,4 +32,5 @@ function App() {
 }
 
 
+            
 export default App;
