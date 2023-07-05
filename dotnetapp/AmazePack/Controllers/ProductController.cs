@@ -26,12 +26,12 @@ namespace AmazePack.Controllers
             return(amazePackBL.GetProduct());
         
         }
-        // [HttpGet]
-        // [Route("home/{userId}")]
-        // public List<CartModel> GetHomeProduct(string userId)
-        // {
-        //     return (amazePackBL.GetHomeProduct(userId));
-        // }
+        [HttpGet]
+        [Route("home/{userId}")]
+        public List<CartModel> GetHomeProduct(string userId)
+        {
+            return (amazePackBL.GetHomeProduct(userId));
+        }
 
         [HttpGet]
         [Route("admin/productEdit/{id}")]
