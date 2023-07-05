@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "Ic9urWvcEgDFeATKrBwCo4Z7+9gTlWPOY7UcLftYV2pj8hNmmCXIAcAxvKZDnRciM8D0hHyGbqIQlZqjiz/+YQ==",
 =======
   "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
@@ -30,9 +31,13 @@
 =======
   "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
+=======
+  "dgSpecHash": "c+CLy0d+mdp70a11xnBtHb+/nVCE3zSiiB8O4+/UMxEikIlVGNAxVFe12aFVrBbk6HS281H3m4NPLK+34i7/Fw==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-SamanvithaBolloju
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/AmazePack/AmazePack.csproj",
   "expectedPackageFiles": [
+    "/home/coder/.nuget/packages/microsoft.aspnet.razor/3.2.9/microsoft.aspnet.razor.3.2.9.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
@@ -156,5 +161,16 @@
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

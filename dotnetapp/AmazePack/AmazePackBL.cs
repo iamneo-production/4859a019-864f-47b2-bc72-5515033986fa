@@ -9,7 +9,6 @@ namespace AmazePack
     public class AmazePackBL
     {
         AmazePackDL amazePackDL = new AmazePackDL();
-
         public List<ProductModel> GetProduct()
         {
             return(amazePackDL.GetProduct());
@@ -61,7 +60,7 @@ namespace AmazePack
         {
             return (amazePackDL.Delete(cartItemId));
         }
- 
+        
         public void SaveProduct(UserModel user)
         {
             amazePackDL.SaveProduct(user);
@@ -73,6 +72,14 @@ namespace AmazePack
         public List<OrderModel> GetOrders()
         {
             return(amazePackDL.GetOrders());
+        }
+        public string checkQuantityBeforePaying(string userId)
+        {
+            return (amazePackDL.checkQuantityBeforePaying(userId));
+        }
+        public void deleteOrderAndCartItems(string userId)
+        {
+            amazePackDL.deleteOrderAndCartItems(userId);
         }
     }
 }  

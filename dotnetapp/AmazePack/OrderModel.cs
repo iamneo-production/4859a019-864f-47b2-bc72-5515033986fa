@@ -19,4 +19,7 @@ namespace AmazePack
         public string status{get;set;}
         public string price { get; set; }
     }
+
 }
+
+

@@ -43,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
 =======
@@ -51,6 +52,12 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
+=======
+            "Microsoft.AspNet.Razor": {
+              "target": "Package",
+              "version": "[3.2.9, )"
+            },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-SamanvithaBolloju
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
