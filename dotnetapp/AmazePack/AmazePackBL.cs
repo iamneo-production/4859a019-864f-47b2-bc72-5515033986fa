@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Configuration;
 
 namespace AmazePack
 {
     public class AmazePackBL
     {
-        
         AmazePackDL amazePackDL = new AmazePackDL();
         public List<ProductModel> GetProduct()
         {
@@ -27,16 +24,19 @@ namespace AmazePack
         public string ProductSave(ProductModel p)
         {
             return (amazePackDL.ProductSave(p));
-
         }
         public string ProductEditSave(int id, ProductModel p)
         {
             return (amazePackDL.ProductEditSave(id, p));
         }
-        
         public string ProductDelete(int id)
         {
             return (amazePackDL.ProductDelete(id));
         }
+         public Boolean SaveUser(UserModel user)
+        {
+            return (amazePackDL.SaveUser(user));
+        }
     }
 }
+
