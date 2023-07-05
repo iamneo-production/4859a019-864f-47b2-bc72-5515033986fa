@@ -37,6 +37,9 @@ namespace AmazePack
         {
             return (amazePackDL.SaveUser(user));
         }
+         public List<string> checkUser(LoginModel user)
+        {
+            return (amazePackDL.checkUser(user));
+        }
     }
 }
-

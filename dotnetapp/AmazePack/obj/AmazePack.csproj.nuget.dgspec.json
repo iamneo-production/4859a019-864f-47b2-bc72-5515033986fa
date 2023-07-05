@@ -47,12 +47,15 @@
               "version": "[6.2.3, )"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
             },
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"

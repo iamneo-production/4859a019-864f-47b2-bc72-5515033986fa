@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 
 namespace AmazePack
 {
+
     internal class AmazePackDL
     {
         SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=AmazePack;trusted_connection=false;Persist Security Info =False;Encrypt=False");
@@ -140,7 +141,7 @@ namespace AmazePack
         // to add a new user to the database
         internal Boolean SaveUser(UserModel user)
         {
-            cmd = new SqlCommand("select * from UserModel where Email = '" + user.Email + "'", con);
+            cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "'", con);
             con.Open();
             dr = cmd.ExecuteReader();
 
@@ -152,7 +153,7 @@ namespace AmazePack
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into UserModel Values('" + user.Email + "','" + user.Password + "','" + user.username + "'," +
+                cmd = new SqlCommand("insert into UserModel Values('" + user.email + "','" + user.password + "','" + user.username + "'," +
                     "'" + user.mobileNumber + "',1,'USER') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
@@ -165,6 +166,32 @@ namespace AmazePack
                 {
                     return false;
                 }
+            }
+        }
+
+        internal List<string> checkUser(LoginModel user)
+        {
+            
+            List<string> li = new List<string>();
+            cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "' and password COLLATE Latin1_General_CS_AS = '" + user.password + "'", con);
+            con.Open();
+            dr = cmd.ExecuteReader();
+
+            if (dr.HasRows)
+            {
+                dr.Read();
+                li.Add("true");
+                li.Add(dr["role"].ToString());
+                li.Add(dr["userId"].ToString());
+                con.Close();
+                return li;
+
+            }
+            else
+            {
+                con.Close();
+                li.Add("false");
+                return li;
             }
         }
     }
