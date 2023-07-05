@@ -6,12 +6,14 @@ import {
   Route,
   Routes,
   } from "react-router-dom";
+
 import Dashboard from "./Components/Dashboard";
 import AddProduct from "./Components/AddProduct";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import {Auth,Admin} from "./Components/Auth";
-  import Home from "./Components/HomePage";
+import Home from "./Components/HomePage";
+import Cart from "./Components/Cart";
 function App() {
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
           <Route exact path="/" element = {<Login/>}></Route>
           <Route path="/signup" element = {<Signup/>}></Route>
           <Route path="/home" element = { <Home/>  }></Route>
+          <Route path="/cart" element = {<Cart/> }></Route>
           <Route element={<Admin/>}>
             <Route path="/admin" element = {<Dashboard/>}></Route>
             
@@ -31,6 +34,4 @@ function App() {
   )
 }
 
-
-            
 export default App;

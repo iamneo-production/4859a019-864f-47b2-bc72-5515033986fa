@@ -40,8 +40,11 @@
           "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -50,6 +53,7 @@
               "target": "Package",
               "version": "[6.2.3, )"
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +78,11 @@
               "target": "Package",
               "version": "[4.8.5, )"
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
             }
           },
           "imports": [

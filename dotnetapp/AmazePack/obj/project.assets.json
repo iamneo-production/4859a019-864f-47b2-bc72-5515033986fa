@@ -4,8 +4,11 @@
     "net6.0": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Microsoft.AspNetCore.Cors/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -79,10 +82,13 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -96,8 +102,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -220,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NETCore.Targets/1.1.0": {
         "type": "package",
         "compile": {
@@ -237,6 +247,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -252,8 +264,11 @@
       },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Microsoft.Win32.Registry/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -317,10 +332,13 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -385,8 +403,11 @@
         ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       },
       "System.Buffers/4.5.0": {
         "type": "package",
@@ -397,6 +418,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,6 +441,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "System.ComponentModel.Annotations/4.5.0": {
         "type": "package",
         "compile": {
@@ -468,6 +492,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -486,6 +511,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {
         "type": "package",
         "compile": {
@@ -558,18 +585,24 @@
           }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
       }
     }
   },
   "libraries": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Microsoft.AspNetCore.Cors/2.2.0": {
       "sha512": "LFlTM3ThS3ZCILuKnjy8HyK9/IlDh3opogdbCVx6tMGyDzTQBgMPXLjGDLtMk5QmLDCcP3l1TO3z/+1viA8GUg==",
       "type": "package",
@@ -623,10 +656,13 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -656,8 +692,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
       "sha512": "65MrmXCziWaQFrI0UHkQbesrX5wTwf9XPjY5yFm/VkgJKFJ5gqvXRoXjIZcf2wLi5ZlwGz/oMYfyURVCWbM5iw==",
       "type": "package",
@@ -769,6 +808,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.NETCore.Targets/1.1.0": {
       "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
@@ -792,6 +832,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -811,8 +853,11 @@
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Microsoft.Win32.Registry/4.7.0": {
       "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "type": "package",
@@ -924,10 +969,13 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -1010,8 +1058,11 @@
       ]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
@@ -1042,6 +1093,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1119,6 +1171,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "System.ComponentModel.Annotations/4.5.0": {
       "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
@@ -1322,6 +1376,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "System.Runtime/4.3.0": {
       "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
@@ -1420,6 +1475,8 @@
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "sha512": "Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
       "type": "package",
@@ -1564,14 +1621,18 @@
         "version.txt"
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.AspNetCore.Cors >= 2.2.0",
@@ -1592,6 +1653,11 @@
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.Data.SqlClient >= 4.8.5"
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+      "Microsoft.AspNetCore.Cors >= 2.2.0",
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "System.Data.SqlClient >= 4.8.5"
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
     ]
   },
   "packageFolders": {
@@ -1633,8 +1699,11 @@
         "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
           "Microsoft.AspNetCore.Cors": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -1643,6 +1712,7 @@
             "target": "Package",
             "version": "[6.2.3, )"
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1667,6 +1737,11 @@
             "target": "Package",
             "version": "[4.8.5, )"
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.5, )"
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
           }
         },
         "imports": [
