@@ -5,6 +5,8 @@
 import React, { useEffect,useState,useRef } from 'react'
 import Navbar from './Navbar';
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 export default function HomePage() {
   const ref = useRef();
   const [arr,setArr] =useState([]);
@@ -12,7 +14,7 @@ export default function HomePage() {
   const [alert,setalert] =useState("none");
   const [count,setCount] = useState(0);
   useEffect(()=>{
-    axios.get("http://localhost:51700/home/"+sessionStorage.getItem('user'))
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin")
     .then((res)=>{
       console.log(res.data);
       setArr(res.data);
