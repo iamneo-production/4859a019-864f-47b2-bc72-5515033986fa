@@ -1,6 +1,39 @@
 {
   "version": 2,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "dgSpecHash": "Ic9urWvcEgDFeATKrBwCo4Z7+9gTlWPOY7UcLftYV2pj8hNmmCXIAcAxvKZDnRciM8D0hHyGbqIQlZqjiz/+YQ==",
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
+=======
+  "dgSpecHash": "Ic9urWvcEgDFeATKrBwCo4Z7+9gTlWPOY7UcLftYV2pj8hNmmCXIAcAxvKZDnRciM8D0hHyGbqIQlZqjiz/+YQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
+=======
+  "dgSpecHash": "A4n9F/9X4bXpsyP74SV5xJoBB4QrwN9q6HqMd0w9UmfA+RqUQk/59Rh7Bc3MD1qtEVaE+hgii4nYe3m6q/2OsQ==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
+=======
   "dgSpecHash": "c+CLy0d+mdp70a11xnBtHb+/nVCE3zSiiB8O4+/UMxEikIlVGNAxVFe12aFVrBbk6HS281H3m4NPLK+34i7/Fw==",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-SamanvithaBolloju
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/AmazePack/AmazePack.csproj",
   "expectedPackageFiles": [
@@ -18,7 +51,29 @@
     "/home/coder/.nuget/packages/microsoft.extensions.primitives/2.2.0/microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     "/home/coder/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
+=======
+    "/home/coder/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
     "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
@@ -30,15 +85,81 @@
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/coder/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
     "/home/coder/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
     "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+<<<<<<< HEAD
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Saranya463
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-likhitagurram
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
+=======
+    "/home/coder/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
     "/home/coder/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  "dgSpecHash": "9LDEojFoun3wSf+sDcX0vNJfw/UJW7WT5tiPsyJCOHA0fWnJ06FLFMx5UqtQ8+Zcl237tcv366Pz8ZDA/HRi7Q==",
+  "success": true,
+  "projectFilePath": "/home/coder/project/workspace/dotnetapp/AmazePack/AmazePack.csproj",
+  "expectedPackageFiles": [
+    "/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/coder/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-PetaSaiSrujana
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
   ],
   "logs": [
     {

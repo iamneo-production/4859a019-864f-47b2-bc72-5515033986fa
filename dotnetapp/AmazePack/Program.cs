@@ -1,4 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 
 // Add services to the container.
 builder.Services.AddCors(options =>
@@ -9,6 +10,8 @@ builder.Services.AddCors(options =>
             builder.AllowAnyOrigin() ;
         });
 });
+// Add services to the container.
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

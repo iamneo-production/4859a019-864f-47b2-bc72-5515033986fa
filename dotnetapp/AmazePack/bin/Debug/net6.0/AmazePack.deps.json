@@ -10,7 +10,10 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Swashbuckle.AspNetCore": "6.2.3",
+<<<<<<< HEAD
+=======
           "System.Collections": "4.3.0",
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
           "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
@@ -78,7 +81,10 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
+<<<<<<< HEAD
+=======
       "Microsoft.NETCore.Targets/1.1.0": {},
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -166,6 +172,8 @@
         }
       },
       "System.Buffers/4.5.0": {},
+<<<<<<< HEAD
+=======
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -173,6 +181,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
       "System.ComponentModel.Annotations/4.5.0": {},
       "System.Data.SqlClient/4.8.5": {
         "dependencies": {
@@ -202,12 +211,15 @@
         }
       },
       "System.Memory/4.5.1": {},
+<<<<<<< HEAD
+=======
       "System.Runtime/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
       "System.Security.AccessControl/4.7.0": {
         "dependencies": {
@@ -316,6 +328,8 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -323,6 +337,7 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
       "serviceable": true,
@@ -400,6 +415,8 @@
       "path": "system.buffers/4.5.0",
       "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
     "System.Collections/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -407,6 +424,7 @@
       "path": "system.collections/4.3.0",
       "hashPath": "system.collections.4.3.0.nupkg.sha512"
     },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
     "System.ComponentModel.Annotations/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -428,6 +446,8 @@
       "path": "system.memory/4.5.1",
       "hashPath": "system.memory.4.5.1.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
     "System.Runtime/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -435,6 +455,7 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
     "System.Runtime.CompilerServices.Unsafe/4.5.1": {
       "type": "package",
       "serviceable": true,
