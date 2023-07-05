@@ -12,40 +12,13 @@ namespace AmazePack
     {
         
         AmazePackDL amazePackDL = new AmazePackDL();
-        public List<ProductModel> GetProduct()
+       public string checkQuantityBeforePaying(string userId)
         {
-            return(amazePackDL.GetProduct());
+            return (amazePackDL.checkQuantityBeforePaying(userId));
         }
-        // public List<CartModel> GetHomeProduct(string userId)
-        // {
-        //     return(amazePackDL.GetHomeProduct(userId));
-        // }
-        public List<string> ProductEditData(int id)
+        public void deleteOrderAndCartItems(string userId)
         {
-            return (amazePackDL.ProductEditData(id));
+            amazePackDL.deleteOrderAndCartItems(userId);
         }
-        public string ProductSave(ProductModel p)
-        {
-            return (amazePackDL.ProductSave(p));
-
-        }
-        public string ProductEditSave(int id, ProductModel p)
-        {
-            return (amazePackDL.ProductEditSave(id, p));
-        }
-        
-        public string ProductDelete(int id)
-        {
-            return (amazePackDL.ProductDelete(id));
-        }
-
-        // public Boolean SaveUser(UserModel user)
-        // {
-        //     return (amazePackDL.SaveUser(user));
-        // }
-        // public List<string> checkUser(LoginModel user)
-        // {
-        //     return (amazePackDL.checkUser(user));
-        // }
     }
 }
