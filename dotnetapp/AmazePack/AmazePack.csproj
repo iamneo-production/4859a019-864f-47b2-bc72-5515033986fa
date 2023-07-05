@@ -10,7 +10,23 @@
     <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.9" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     <PackageReference Include="System.Collections" Version="4.3.0" />
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Moulika36
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-priyankayedida15
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-Niyathi512
+=======
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
+=======
+>>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-praneethatadi
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
