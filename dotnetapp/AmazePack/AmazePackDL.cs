@@ -142,7 +142,7 @@ namespace AmazePack
         // to add a new user to the database
         internal Boolean SaveUser(UserModel user)
         {
-            cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "'", con);
+            cmd = new SqlCommand("select * from UserModel where email = '" + user.Email + "'", con);
             con.Open();
             dr = cmd.ExecuteReader();
 
@@ -154,7 +154,7 @@ namespace AmazePack
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into UserModel Values('" + user.email + "','" + user.password + "','" + user.username + "'," +
+                cmd = new SqlCommand("insert into UserModel Values('" + user.Email + "','" + user.Password + "','" + user.username + "'," +
                     "'" + user.mobileNumber + "',1,'USER') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
@@ -175,7 +175,7 @@ namespace AmazePack
         internal List<string> checkUser(LoginModel user)
         {
             List<string> li = new List<string>();
-            cmd = new SqlCommand("select * from UserModel where email = '" + user.email + "' and password COLLATE Latin1_General_CS_AS = '" + user.password + "'", con);
+            cmd = new SqlCommand("select * from UserModel where email = '" + user.Email + "' and password COLLATE Latin1_General_CS_AS = '" + user.Password + "'", con);
             con.Open();
             dr = cmd.ExecuteReader();
 
@@ -183,7 +183,7 @@ namespace AmazePack
             {
                 dr.Read();
                 li.Add("true");
-                li.Add(dr["role"].ToString());
+                li.Add(dr["userRole"].ToString());
                 li.Add(dr["userId"].ToString());
                 con.Close();
                 return li;
@@ -368,7 +368,8 @@ namespace AmazePack
             dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                SqlConnection con1 = new SqlConnection(@"Data Source = DESKTOP-N54RL2R\SQLEXPRESS01;Initial Catalog=AmazePack;Integrated Security=true");
+                SqlConnection con1 = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=AmazePack;trusted_connection=false;Persist Security Info =False;Encrypt=False");
+            
                 SqlCommand cmd1 = new SqlCommand("select quantity from ProductModel where productName = '"+dr["productName"]+"'", con1);
                 con1.Open();
                 SqlDataReader dr1 = cmd1.ExecuteReader();
@@ -389,7 +390,7 @@ namespace AmazePack
             dr = cmd.ExecuteReader();
             while (dr.Read())
             {
-                SqlConnection con1 = new SqlConnection(@"Data Source = DESKTOP-N54RL2R\SQLEXPRESS01;Initial Catalog=AmazePack;Integrated Security=true");
+                SqlConnection con1 = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=AmazePack;trusted_connection=false;Persist Security Info =False;Encrypt=False");
                 SqlCommand cmd1 = new SqlCommand("update productModel set quantity = quantity - " + dr["quantity"] + "where productName = '" + dr["productName"] + "'", con1);
                 con1.Open();
                 cmd1.ExecuteNonQuery();

@@ -78,7 +78,7 @@ const Signup = () => {
     setErrorMessage('');
     console.log(flag)
     if(flag===1){
-      axios.post('http://localhost:51700/signup', {
+      axios.post('https://8080-ffebceeacfaacbbedddeecfbcbaca.project.examly.io/signup', {
       email,
       password,
       username,
