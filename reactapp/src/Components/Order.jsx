@@ -9,7 +9,7 @@ export default function Order() {
   const [orderList,setOrderList] = useState([]);
   let totalPrice=0;
   useEffect(()=>{
-    axios.get("http://localhost:51700/orders/"+sessionStorage.getItem('user'))
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/orders/"+sessionStorage.getItem('user'))
     .then((res)=>{
       setOrderList(res.data);
     })
@@ -22,7 +22,7 @@ export default function Order() {
   
   async function handlePayment(e,tPrice){
     let result = ""
-    await axios.get("http://localhost:51700/orders/checkQuantity/"+sessionStorage.getItem('user'))
+    await axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/orders/checkQuantity/"+sessionStorage.getItem('user'))
     .then((res)=>{
       result =res.data;
       
@@ -36,14 +36,14 @@ export default function Order() {
         const script = document.createElement("script");
         script.src = "https://checkout.razorpay.com/v1/checkout.js";
         document.body.appendChild(script);
-        axios.post("http://localhost:51700/payment/initialize",{totalPrice : tPrice}).then(res=>{
+        axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/payment/initialize",{totalPrice : tPrice}).then(res=>{
             var options = {
                 "name": "AmazePack",
                 "description": "Pay Your Transaction",
                 "image": "https://example.com/your_logo",
                 "order_id": res.data, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
                 "handler": function (response){
-                    axios.post("http://localhost:51700/payment/confirm",
+                    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//payment/confirm",
                     {razorpay_order_id : response.razorpay_order_id,
                         razorpay_payment_id:response.razorpay_payment_id,
                         razorpay_signature:response.razorpay_signature,

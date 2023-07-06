@@ -14,7 +14,7 @@ export default function HomePage() {
   const [alert,setalert] =useState("none");
   const [count,setCount] = useState(0);
   useEffect(()=>{
-    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin")
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/home/"+sessionStorage.getItem('user'))
     .then((res)=>{
       console.log(res.data);
       setArr(res.data);
@@ -25,7 +25,7 @@ export default function HomePage() {
     })
   },[count])
   function handleAddtoCart(index){
-    axios.post("http://localhost:51700/addToCart",{
+    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/addToCart",{
       userId:sessionStorage.getItem('user'),
       productName : productArr[index].productName,
       quantity : 1,
