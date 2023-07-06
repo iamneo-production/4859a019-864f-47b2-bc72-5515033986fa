@@ -33,9 +33,6 @@ export default function Order() {
     if(result.length !== 0){
       alert("Out of stock for " + result);
     }else{
-        const script = document.createElement("script");
-        script.src = "https://checkout.razorpay.com/v1/checkout.js";
-        document.body.appendChild(script);
         axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/payment/initialize",{totalPrice : tPrice}).then(res=>{
             var options = {
                 "name": "AmazePack",
