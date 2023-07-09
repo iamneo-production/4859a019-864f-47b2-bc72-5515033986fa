@@ -12,7 +12,6 @@ export default function Cart() {
   useEffect(() => {
     axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/cart/"+sessionStorage.getItem('user'))
     .then((res)=>{
-      console.log(res.data);
       setCartProduct(res.data);
     })
   }, [count])

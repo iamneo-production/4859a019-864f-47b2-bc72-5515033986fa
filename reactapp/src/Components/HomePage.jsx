@@ -16,7 +16,6 @@ export default function HomePage() {
   useEffect(()=>{
     axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/home/"+sessionStorage.getItem('user'))
     .then((res)=>{
-      console.log(res.data);
       setArr(res.data);
       setproductArr(res.data);
     })

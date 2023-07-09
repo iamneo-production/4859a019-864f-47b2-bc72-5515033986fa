@@ -2,7 +2,6 @@ import { Outlet,Navigate } from "react-router-dom";
 
 
 function Auth(){
-  //const auth = useAuth();
   return(
     sessionStorage.getItem('user') ? <Outlet/> : <Navigate to = "/" />
   );

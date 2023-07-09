@@ -35,7 +35,7 @@ export default function Dashboard() {
         
     }
     function deleteproduct(event,index){
-        var id = productData[index].id;
+        let id = productData[index].id;
         axios.delete("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/delete/"+id)
         .then(res=>{
             alert(res.data);

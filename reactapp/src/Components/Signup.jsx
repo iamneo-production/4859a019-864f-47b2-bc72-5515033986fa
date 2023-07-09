@@ -51,7 +51,7 @@ const Signup = () => {
       flag=flag&1;
       setEmailError("");
     } 
-    var mobileNumberRegex = /^\d{10}$/;
+    let mobileNumberRegex = /^\d{10}$/;
     if (!mobileNumberRegex.test(mobileNumber)) {
       flag=0;
       setMobileNumberError('Mobile number must be a 10-digit number.');
@@ -59,7 +59,7 @@ const Signup = () => {
       flag=flag&1;
       setMobileNumberError("");
     }
-    var pwd = new RegExp("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\\s).{8,15}$")
+    let pwd = new RegExp("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\\s).{8,15}$")
     if (!pwd.test(password)) {
       flag=0;
       setPasswordError('Password must contains 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character');
@@ -86,7 +86,6 @@ const Signup = () => {
       
     })
       .then((response) => {
-        console.log(response.data);
         setIsLoading(false);
         if(response.data){
           navigate("/");

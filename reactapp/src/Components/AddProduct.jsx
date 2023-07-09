@@ -7,7 +7,6 @@ export default function AddProduct() {
     const {state} = useLocation();
     function handleSubmit(e){
         e.preventDefault();
-        console.log(e);
         if(state!=null){
           axios.put("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/productEdit/"+state.id,{
             productName:e.target['0']['value'],

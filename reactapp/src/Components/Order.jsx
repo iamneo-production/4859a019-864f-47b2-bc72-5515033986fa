@@ -33,28 +33,32 @@ export default function Order() {
     if(result.length !== 0){
       alert("Out of stock for " + result);
     }else{
-        axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/payment/initialize",{totalPrice : tPrice}).then(res=>{
-            var options = {
+        axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/payment/initialize/"+tPrice).then(res=>{
+            let options = {
                 "name": "AmazePack",
                 "description": "Pay Your Transaction",
                 "image": "https://example.com/your_logo",
                 "order_id": res.data, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
                 "handler": function (response){
-                    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io//payment/confirm",
-                    {razorpay_order_id : response.razorpay_order_id,
-                        razorpay_payment_id:response.razorpay_payment_id,
-                        razorpay_signature:response.razorpay_signature,
-                        userId : sessionStorage.getItem('user'),
-                    }).then(()=>{
+                    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/payment/confirm",
+                    {razorpay_order_id :response.razorpay_order_id,
+                     razorpay_payment_id:response.razorpay_payment_id,
+                      razorpay_signature:response.razorpay_signature,
+                      userId : sessionStorage.getItem('user'),
+                    }).then((res)=>{
+                      if(res.data==="success"){
                         alert("Payment Successfull");
                         navigate("/home");
+                      }else{
+                        alert("payment no successfull")
+                      }
                     })
                 },
                 "theme": {
                     "color": "#f1f3f5"
                 }
             };
-            var rzp1 = new window.Razorpay(options);
+            let rzp1 = new window.Razorpay(options);
             rzp1.on('payment.failed', function (response){
                     alert(response.error.code);
                     alert(response.error.description);
