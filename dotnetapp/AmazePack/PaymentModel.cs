@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AmazePack
 {
     
-    public partial class PaymentModel
+    public partial class PaymentModel:UserModel
     {
        public string razorpay_payment_id { get; set; }
         public string razorpay_order_id { get; set; }

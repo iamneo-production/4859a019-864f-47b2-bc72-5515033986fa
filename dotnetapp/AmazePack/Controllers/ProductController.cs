@@ -32,13 +32,22 @@ namespace AmazePack.Controllers
         {
             return (amazePackBL.GetHomeProduct(userId));
         }
-
+        [HttpGet]
+        [Route("/home")]
+        public string Home(){
+            return("home");
+        }
         [HttpGet]
         [Route("admin/productEdit/{id}")]
         //GET: api/Product/5
         public List<string> ProductEditData(int id)
         {
             return (amazePackBL.ProductEditData(id));
+        }
+        [HttpGet]
+        [Route("admin/productEdit")]
+        public string productEdit(){
+            return ("productEdit");
         }
         [HttpPost]
         [Route("admin/addProduct")]

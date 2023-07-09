@@ -363,7 +363,7 @@ namespace AmazePack
         internal string checkQuantityBeforePaying(string userId)
         {
             string result = "";
-            cmd = new SqlCommand("select * from OrderModel where userId = '" + userId + "'", con);
+            cmd = new SqlCommand("select * from OrderModel where userId = '" + userId + "' and status = 'active'", con);
             con.Open();
             dr = cmd.ExecuteReader();
             while (dr.Read())
@@ -384,13 +384,13 @@ namespace AmazePack
         }
         internal void deleteOrderAndCartItems(string userId)
         {
-            cmd = new SqlCommand("select * from OrderModel where userId = '" + userId + "'", con);
+            cmd = new SqlCommand("select * from OrderModel where userId = '" + userId + "' and status = 'active' ", con);
             con.Open();
             dr = cmd.ExecuteReader();
             while (dr.Read())
             {
                 SqlConnection con1 = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=AmazePack;trusted_connection=false;Persist Security Info =False;Encrypt=False");
-                SqlCommand cmd1 = new SqlCommand("update productModel set quantity = quantity - " + dr["quantity"] + "where productName = '" + dr["productName"] + "'", con1);
+                SqlCommand cmd1 = new SqlCommand("update ProductModel set quantity = quantity - " + dr["quantity"] + "where productName = '" + dr["productName"] + "'", con1);
                 con1.Open();
                 cmd1.ExecuteNonQuery();
                 con1.Close();

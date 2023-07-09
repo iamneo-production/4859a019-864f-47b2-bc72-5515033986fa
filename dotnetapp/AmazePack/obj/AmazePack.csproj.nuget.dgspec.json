@@ -38,13 +38,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNet.Razor": {
-              "target": "Package",
-              "version": "[3.2.9, )"
-            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Razorpay": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

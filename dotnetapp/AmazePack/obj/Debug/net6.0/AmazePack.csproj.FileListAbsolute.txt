@@ -34,4 +34,5 @@
 /home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/AmazePack.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/AmazePack/obj/Debug/net6.0/ref/AmazePack.dll
 >>>>>>> origin/DotNet_React_AE_E---Amaze-Pack_2023-saitej777
-/home/coder/project/workspace/dotnetapp/AmazePack/bin/Debug/net6.0/System.Web.Razor.dll
+/home/coder/project/workspace/dotnetapp/AmazePack/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetapp/AmazePack/bin/Debug/net6.0/Razorpay.dll
