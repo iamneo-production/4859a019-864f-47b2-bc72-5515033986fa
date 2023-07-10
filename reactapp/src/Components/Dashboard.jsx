@@ -3,8 +3,6 @@ import React,{useEffect,useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import $, { error } from 'jquery';
-import Popper from 'popper.js';
 import axios from 'axios';
 import Navbar from './AdminHomePage';
 
@@ -57,7 +55,7 @@ export default function Dashboard() {
                 <div className='col-lg-1'>Delete</div>
             </div>
             {productData.map((productobj,index)=>{return(
-                <div className='row' key={index} style={{'color':'white',padding:'10px',backgroundColor:'#495057'}}>
+                <div className='row' key={productobj.id} style={{'color':'white',padding:'10px',backgroundColor:'#495057'}}>
                     <div className='col-lg-3'><img src={productobj.imageurl} alt="" style={{'width':'100px','height':'100px'}}></img></div>
                     <div className='col-lg-3'>{productobj.productName}</div>
                     <div className='col-lg-2'>{productobj.price}</div>

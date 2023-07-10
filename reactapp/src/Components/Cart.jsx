@@ -64,7 +64,7 @@ export default function Cart() {
      <section id='productCardBody'>
     {cartProduct.map((cartProductobj,index)=>{
       return (
-        <div className="cartItem" key = {index} >
+        <div className="cartItem" key = {cartProductobj.id} >
           <img src={cartProductobj.imageurl} alt="product img" />
           <div className="product-description">
           <div className='product-name'>{cartProductobj.productName}</div>

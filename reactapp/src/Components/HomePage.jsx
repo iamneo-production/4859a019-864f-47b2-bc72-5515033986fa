@@ -52,6 +52,15 @@ export default function HomePage() {
       setproductArr(arr);
     }
   }
+  function conditionalRedering(quantity,cartItemID,index){
+    if(parseInt(quantity) <= 0){
+      return(<a className='btn btn-danger' >OUT OF STOCK</a>)
+    }else if(parseInt(cartItemID) <= 1){
+      return(<a className='btn btn-success' onClick={()=>handleAddtoCart(index)}>ADD TO CART</a>)
+    }else{
+      return(<a className='btn btn-warning' href="/cart">GO TO CART</a>)
+    }
+  }
   return (
     <>
     <Navbar/>
@@ -73,10 +82,7 @@ export default function HomePage() {
             <p className='product-name'>{productobj.productName}</p>
             <div className='product-pricing'>  
               <strong>₹{productobj.price}</strong>
-              {parseInt(productobj.quantity) <= 0 ?  <a className='btn btn-danger' >OUT OF STOCK</a> : 
-              (parseInt(productobj.cartItemID)<=1 ? 
-              <a className='btn btn-success' onClick={()=>handleAddtoCart(index)}>ADD TO CART</a> : 
-              <a className='btn btn-warning' href="/cart">GO TO CART</a>)}
+              {conditionalRedering(productobj.quantity,productobj.cartItemID,index)}
             </div>
           </div>
         )

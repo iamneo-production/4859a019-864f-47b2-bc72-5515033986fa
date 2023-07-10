@@ -43,7 +43,7 @@ const Signup = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     let flag=1;
-    const emailRegex = new RegExp("^[^\\s@]{2,102}@[^\\s@]{4,256}\\.[^\\s@]{2,}$");
+    const emailRegex = /^[^\s@]{2,102}@[^\s@]{4,256}\.[^\s@]{2,}$/;
     if (!emailRegex.test(email)) {
       flag=0;
       setEmailError('Invalid Email');
@@ -59,7 +59,7 @@ const Signup = () => {
       flag=flag&1;
       setMobileNumberError("");
     }
-    let pwd = new RegExp("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\\s).{8,15}$")
+    let pwd = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/
     if (!pwd.test(password)) {
       flag=0;
       setPasswordError('Password must contains 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character');

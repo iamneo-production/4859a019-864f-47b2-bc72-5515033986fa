@@ -7,8 +7,12 @@ function Auth(){
   );
 }
 function Admin(){
-  return (
-    sessionStorage.getItem('admin')?<Outlet/>: sessionStorage.getItem('user') ? <Navigate to = "/home"/>: <Navigate to ="/"/>
-  )
+    if(sessionStorage.getItem('admin')){
+      return(<Outlet/>)
+    }else if(sessionStorage.getItem('user')){
+      <Navigate to = "/home"/>
+    }else{
+      <Navigate to ="/"/>
+    }
 }
 export  {Auth,Admin}
