@@ -24,12 +24,10 @@ export default function Order() {
     let result = ""
     await axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/orders/checkQuantity/"+sessionStorage.getItem('user'))
     .then((res)=>{
-      result =res.data;
-      
+      result =res.data;  
     }).catch(err=>{
       console.log(err);
     })
-    console.log(result)
     if(result.length !== 0){
       alert("Out of stock for " + result);
     }else{

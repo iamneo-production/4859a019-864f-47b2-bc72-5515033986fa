@@ -76,7 +76,6 @@ const Signup = () => {
     }
     setIsLoading(true);
     setErrorMessage('');
-    console.log(flag)
     if(flag===1){
       axios.post('https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/signup', {
       email,

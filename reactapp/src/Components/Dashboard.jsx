@@ -18,7 +18,6 @@ export default function Dashboard() {
     function editproduct(event,index){
         
         axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/productEdit/"+productData[index].id).then(res=>{
-            //console.log(res.data[0])
             navigate("/addproduct",{
                 state : {
                     id : productData[index].id,//prodcutid;

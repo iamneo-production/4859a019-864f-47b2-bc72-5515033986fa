@@ -30,7 +30,7 @@ export default function HomePage() {
       quantity : 1,
       price : productArr[index].price
     })
-    .then((res)=>{console.log(res.data);
+    .then((res)=>{
       setalert("alert");
       setTimeout(()=>{setalert("none")},4000)
       setCount(count+1);
