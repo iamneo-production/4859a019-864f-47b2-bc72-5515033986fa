@@ -18,7 +18,7 @@ namespace Webapi
         {
 
             List<ProductModel> l = new List<ProductModel>();
-            cmd = new SqlCommand("select * from Products", con);
+            cmd = new SqlCommand("select * from ProductModel", con);
             adapter = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             con.Open();
@@ -28,13 +28,116 @@ namespace Webapi
             {
                 ProductModel product = new ProductModel();
                 product.id = int.Parse(dr["id"].ToString());
-                product.productname = dr["productname"].ToString();
-                product.productprice = int.Parse(dr["productprice"].ToString());
-                product.productimageurl = dr["productimageurl"].ToString();
-                product.productquantity = int.Parse(dr["productquantity"].ToString());
+                product.productId = dr["productId"].ToString();
+                product.productName = dr["productName"].ToString();
+                product.price = dr["price"].ToString();
+                product.imageurl = dr["imageurl"].ToString();
+                product.description = dr["description"].ToString();
+                product.quantity = dr["quantity"].ToString();
                 l.Add(product);
             }
             return l;
+        }
+        //summary :  to retrive all the products for users page 
+        internal List<CartModel> GetHomeProduct(string id)
+        {
+            List<CartModel> l = new List<CartModel>();
+            cmd = new SqlCommand("select * from ProductModel as p left join (select * from CartModel where userId = '"+ id +"') as c on p.productName = c.productName ", con);
+            adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            con.Open();
+            adapter.Fill(dt);
+            con.Close();
+            foreach (DataRow dr in dt.Rows)
+            {
+                CartModel product = new CartModel();
+                product.id = int.Parse(dr["id"].ToString());
+                product.productId = dr["productId"].ToString();
+                product.productName = dr["productName"].ToString();
+                product.price = dr["price"].ToString();
+                product.imageurl = dr["imageurl"].ToString();
+                product.description = dr["description"].ToString();
+                product.quantity = int.Parse(dr["quantity"].ToString());
+                if (dr.IsNull("cartItemID"))
+                {
+                    product.cartItemID = "0";
+                }
+                else
+                {
+                    product.cartItemID = dr["cartItemID"].ToString();
+                }
+                
+                l.Add(product);
+            }
+            return l;
+        }
+        // summary : to obtain the particular details of product based on id
+        internal List<string> ProductEditData(int id)
+        {
+            List<string> li = new List<string>();
+            cmd = new SqlCommand("select * from ProductModel where id = " + id, con);
+            con.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                li.Add(reader["productName"].ToString());
+                li.Add(reader["price"].ToString());
+                li.Add(reader["description"].ToString());
+                li.Add(reader["imageurl"].ToString());
+                li.Add(reader["quantity"].ToString());
+            }
+
+            return li;
+        }
+        // summary : to add a new product to the product database
+        internal string ProductSave(ProductModel p)
+        {
+            cmd = new SqlCommand("insert into ProductModel " +
+                "values('" + p.productName + "','" + p.price + "','" + p.description + "','" + p.imageurl + "','" + p.quantity + "')", con);
+            con.Open();
+            int rowseffect = cmd.ExecuteNonQuery();
+            con.Close();
+            if (rowseffect > 0)
+            {
+                return "Record inserted Successfully";
+            }
+            else
+            {
+                return "Record not inserted";
+            }
+        }
+        // summary : to edit the particular product details
+        internal string ProductEditSave(int id, ProductModel p)
+        {
+            cmd = new SqlCommand("update ProductModel set productName = '" + p.productName + "', price = '"
+                + p.price + "', imageurl = '" + p.imageurl + "', quantity = '" + p.quantity + "', description = '"+p.description+"' where id = " + id, con);
+            con.Open();
+            int rowseffect = cmd.ExecuteNonQuery();
+            con.Close();
+            if (rowseffect > 0)
+            {
+                return "Record updated successfully";
+            }
+            else
+            {
+                return "Record updation not successfull";
+            }
+        }
+        //summary : to delete  the particular product .
+        internal string ProductDelete(int id)
+        {
+            cmd = new SqlCommand("delete ProductModel where id = " + id, con);
+            con.Open();
+            int rowseffect = cmd.ExecuteNonQuery();
+            con.Close();
+            if (rowseffect > 0)
+            {
+                return "Record deleted successfully";
+            }
+            else
+            {
+                return "Record deletion not successfull";
+            }
         }
         internal Boolean SaveUser(UserModel user)
         {

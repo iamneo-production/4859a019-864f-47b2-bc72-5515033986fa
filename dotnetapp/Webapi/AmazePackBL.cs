@@ -16,6 +16,29 @@ namespace Webapi
         {
             return(amazePackDL.GetProduct());
         }
+        public List<CartModel> GetHomeProduct(string userId)
+        {
+            return(amazePackDL.GetHomeProduct(userId));
+        }
+        public List<string> ProductEditData(int id)
+        {
+            return (amazePackDL.ProductEditData(id));
+        }
+        public string ProductSave(ProductModel p)
+        {
+            return (amazePackDL.ProductSave(p));
+
+        }
+        public string ProductEditSave(int id, ProductModel p)
+        {
+            return (amazePackDL.ProductEditSave(id, p));
+        }
+        
+        public string ProductDelete(int id)
+        {
+            return (amazePackDL.ProductDelete(id));
+        }
+
         public Boolean SaveUser(UserModel user)
         {
             return (amazePackDL.SaveUser(user));
