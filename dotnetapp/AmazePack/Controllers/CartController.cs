@@ -23,7 +23,11 @@ namespace AmazePack.Controllers
         {
             return(amazePackBL.addToCart(cart));
         }
-
+        [HttpGet]
+        [Route("admin/cart")]
+        public string cart(){
+            return ("cart");
+        }
         [HttpPut]
         [Route("cart/{id}")]
         public dynamic Put(string id, [FromBody]CartModel cart)
