@@ -4,22 +4,24 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  } from "react-router-dom";
+} from "react-router-dom";
 
-import Login from "./Components/Login/Login";
-import Signup from "./Components/Signup/Signup";
+import Dashboard from "./Components/Dashboard";
+import AddProduct from "./Components/AddProduct";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
+import {Auth,Admin} from "./Components/Auth";
 import Home from "./Components/HomePage";
 import Cart from "./Components/Cart";
 import Order from "./Components/Order";
-import Dashboard from "./Components/Dashboard";
 import ViewOrders from "./Components/ViewOrders";
-import AddProduct from "./Components/AddProduct";
-import {Auth,Admin} from "./Components/Auth/Auth";
+
 function App() {
   return (
     <>
       <Router>
         <Routes>
+        
           <Route exact path="/" element = {<Login/>}></Route>
           <Route path="/signup" element = {<Signup/>}></Route>
           <Route element={<Auth/>}>
@@ -35,7 +37,7 @@ function App() {
         </Routes>
       </Router>
     </>
-  );
+  )
 }
 
 export default App;
