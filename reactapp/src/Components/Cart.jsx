@@ -10,13 +10,13 @@ export default function Cart() {
   const [alert,setalert] =useState("none")
   const navigate = useNavigate();
   useEffect(() => {
-    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/cart/"+sessionStorage.getItem('user'))
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/cart/"+sessionStorage.getItem('user'))
     .then((res)=>{
       setCartProduct(res.data);
     })
   }, [count])
   function putData(cartItemID,data){
-     axios.put("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/cart/"+(cartItemID),{userId:sessionStorage.getItem('user'),quantity:data})
+     axios.put("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/cart/"+(cartItemID),{userId:sessionStorage.getItem('user'),quantity:data})
     .then((res)=>{
       if(typeof(res.data) === "string"){
         setquantityErr(res.data);
@@ -43,7 +43,7 @@ export default function Cart() {
     putData(cartProduct[index].cartItemID,parseInt(cartProduct[index].quantity)+1);
   }
   function deleteCartItem(index){// To delete the cart Item
-    axios.delete("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/cart/delete/"+(cartProduct[index].cartItemID))
+    axios.delete("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/cart/delete/"+(cartProduct[index].cartItemID))
     .then((res)=>{
       if(res.data){
         setCount(count+1);
@@ -51,7 +51,7 @@ export default function Cart() {
     })
   }
   function placeOrder(){
-      axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/saveOrder",{userId : sessionStorage.getItem('user')})
+      axios.post("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/saveOrder",{userId : sessionStorage.getItem('user')})
       .then((res)=>{
         navigate("/order");
       }).catch((err) => {

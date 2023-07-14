@@ -77,7 +77,7 @@ const Signup = () => {
     setIsLoading(true);
     setErrorMessage('');
     if(flag===1){
-      axios.post('https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/signup', {
+      axios.post('https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/signup', {
       email,
       password,
       username,

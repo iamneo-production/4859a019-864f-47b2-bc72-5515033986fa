@@ -9,7 +9,7 @@ export default function Order() {
 
   
   useEffect(()=>{
-    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/admin/orders")
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/admin/orders")
     .then((res)=>{
       setOrderList(res.data);
     })

@@ -13,7 +13,7 @@ export default function HomePage() {
   const [alert,setalert] =useState("none");
   const [count,setCount] = useState(0);
   useEffect(()=>{
-    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/home/"+sessionStorage.getItem('user'))
+    axios.get("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/home/"+sessionStorage.getItem('user'))
     .then((res)=>{
       setArr(res.data);
       setproductArr(res.data);
@@ -23,7 +23,7 @@ export default function HomePage() {
     })
   },[count])
   function handleAddtoCart(index){
-    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/addToCart",{
+    axios.post("https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/addToCart",{
       userId:sessionStorage.getItem('user'),
       productName : productArr[index].productName,
       quantity : 1,

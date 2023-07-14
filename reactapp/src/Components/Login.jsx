@@ -27,7 +27,7 @@ const Login = () => {
         setPasswordError('');
     }
     if(flag===1){
-      axios.post('https://8080-fbedfcfaaeeeeafacbbedddeecfbcbaca.project.examly.io/login', { email, password })
+      axios.post('https://8080-fbedfcfaaeeeeafacbbedddeebdbeefaabcf.project.examly.io/login', { email, password })
       .then((res)=>{
         if(res.data[0]==='true' && res.data[1]==="USER"){
           sessionStorage.setItem('user',res.data[2]);
